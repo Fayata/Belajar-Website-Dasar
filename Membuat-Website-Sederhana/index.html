@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fayata</title>
+    <link rel="stylesheet" href="fa/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1><a href="#">Fayata</a></h1>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobi">Hobby</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="about" class="card">
+                <h2><span>About Me</span></h2>
+                <h3>Hi there!<br> I'm Daffa Surya Septa, also known as FaYaTa.
+                </h3>
+                <br>
+                <p>Coding has fundamentally transformed my life. Beyond just creating applications, learning to code has given me unique skills in problem-solving and technical communication. With my coding skills, I can develop stunning websites and open doors to better job opportunities.</p>
+                <p>I've learned a lot online and in lectures. It's not just about improving skills; it's about building self-esteem and motivation. Join me on this beneficial journey! We'll learn, have fun, help each other, and grow together!</p>
+            </article>
+            <article id="hobi" class="card">
+                <h2><span>My Hobbies</span></h2>
+                <img src="img/hobi.png" alt="hobi" id="hobii">
+                <p>1. Reading</p>
+                <p>"Reading books is something I can't avoid. When I hold a book and start reading, I forget about time."</p>
+                <p>2. Traveling with Pets</p>
+                <p>"This hobby grew when I found an orphaned kitten. I adopted it, and to this day, it's my favorite hobby."</p>
+                <p>3. Sleeping</p>
+                <p>"Undeniably, sleeping is my hobby. It may sound strange, but I really enjoy it."</p>
+                <p>4. Workout</p>
+                <p>"Workout is a routine I do almost every day. It's the only hobby that is very useful for maintaining body fitness."</p>
+                <p>5. Gaming</p>
+                <p>"Playing games has been my hobby since I first got a phone, and it's still my favorite hobby."</p>
+            </article>
+            <article id="contact" class="card">
+                <h2><span>Contact Me</span></h2>
+                <div class="content-2">
+                    <form name="contact-form">
+                        <label for="name">Name:</label>
+                        <input id="ContactForm1_contact-form-name" name="name" type="text" required>
+
+                        <label for="email">Email:</label>
+                        <input id="ContactForm1_contact-form-email" name="email" type="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="ContactForm1_contact-form-email-message" name="email-message" required></textarea>
+
+                        <input id="ContactForm1_contact-form-submit" type="submit" value="Send" onclick="alert('Your message has been sent')">
+
+                        <div id="ContactForm1_contact-form-error-message" class="contact-form-error-message"></div>
+                        <div id="ContactForm1_contact-form-success-message" class="contact-form-success-message"></div>
+                    </form>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <article id="profile" class="card">
+                <h2><span>My Profile</span></h2>
+                <figure>
+                    <img src="img/fayata.jpg" alt="fayata">
+                    <h3>Daffa Surya Septa</h3>
+                    <figcaption>Born on September 15, 2003</figcaption>
+                    <figcaption>Living in Lampung Province</figcaption>
+                </figure>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <small>&copy; 2023 - Fayata</small>
+        </div>
+    </footer>
+
+    <script src="hi/javasc.js"></script>
+</body>
+
+</html>
