@@ -15,21 +15,29 @@ main {
     padding: 20px;
     overflow: auto;
 }
-
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 70px;
     background-color: #112b77;
     color: #fff;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
 header h1 {
-    display: inline-block;
-    float: left;
+    margin: 0;
     padding: 19px 24px;
     text-transform: uppercase;
 }
 
 header h1 a {
+    color: #fff;
+    text-decoration: none;
     transition: .3s;
 }
 
@@ -37,21 +45,22 @@ header h1 a:hover {
     color: #1a0bbf;
 }
 
-header ul {
-    float: left;
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
-header ul li {
-    padding-top: 23px;
-    padding-right: 10px;
-    display: inline-block;
+nav ul li {
+    margin-right: 10px;
 }
 
-header ul li a {
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
     transition: 0.3s;
 }
 
-header ul li a:hover {
+nav ul li a:hover {
     color: #0b23bf;
 }
 
